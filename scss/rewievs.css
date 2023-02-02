@@ -1,0 +1,53 @@
+.reviews {
+  margin-top: 60px;
+}
+.reviews__card {
+  border: 1px solid #D8D8D8;
+}
+.reviews__profile {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 8px;
+}
+.reviews__name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.reviews__text {
+  margin: 20px 20px 28px 8px;
+  color: #565656;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.reviews__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #D8D8D8;
+  padding: 5px 25px;
+}
+.reviews__text-link {
+  color: #2F2F2F;
+}
+.reviews__image-link {
+  display: block;
+  background: linear-gradient(130.83deg, #D2B490 9.11%, #A6835A 70.56%);
+  box-shadow: 0px 6px 26px rgba(83, 61, 35, 0.25);
+  border-radius: 50%;
+  padding: 16px;
+}/*# sourceMappingURL=rewievs.css.map */
+@media(max-width:374px){
+  .reviews__card{
+    width: 300px;
+  }
+  .reviews .slider__el{
+    margin-left: 30px;
+  }
+  .reviews__text{
+    white-space:unset ;
+  }
+}

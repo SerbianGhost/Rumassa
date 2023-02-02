@@ -1,0 +1,32 @@
+.product__card {
+  background-color: white;
+}
+.product__name {
+  padding: 6px 0 6px 22px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.product__text {
+  padding: 6px 0 6px 22px;
+  font-size: 14px;
+  color: #474747;
+}
+.product__price {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 6px 0 6px 22px;
+}
+.product__btns {
+  margin-top: 10px;
+}
+.product__btn {
+  color: black;
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}/*# sourceMappingURL=product.css.map */

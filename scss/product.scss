@@ -1,0 +1,41 @@
+.product {
+
+   &__card {
+      margin-left: 30px;
+      background-color: white;
+   }
+
+   &__image {
+   }
+
+   &__name {
+      font-size: 20px;
+      font-weight: 700;
+   }
+
+   &__text {
+      font-size: 14px;
+      color:  #474747;
+   }
+
+   &__price {
+      font-weight: 700;
+      font-size: 22px;
+   }
+
+   &__btns {
+      margin-top: 10px;
+   }
+
+   &__btn {
+      color: black;
+      border: 1px solid black;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      display: block;
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+   }
+}

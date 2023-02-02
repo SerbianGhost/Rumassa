@@ -1,0 +1,53 @@
+.slider {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   &__box {
+   width: 80%;
+   overflow-x: hidden;
+   }
+
+   &__line {
+      display: inline-flex;
+      justify-content: space-between;
+      }
+
+   &__el {
+      position: relative;
+      left: 0;
+      transition: all ease 1s;
+   }
+}
+.btn {
+   z-index: 3;
+   cursor: pointer;
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   background-color: #F8F8F8;
+   box-shadow:  0 0 10px 0 black;
+   
+
+   &__line {
+   width: 15px;
+   height: 15px;
+   border-top: 2px solid #BB9B75 !important;
+   border-right: 2px solid #BB9B75 !important;
+   transform: rotate(-135deg);
+   display: block;
+   transition: 1s;
+   margin: 0 auto;
+   }
+}
+.prev {
+}
+.sertificates {
+
+   &__image {
+   }
+}
+.next span {
+   transform: rotate(45deg);
+}

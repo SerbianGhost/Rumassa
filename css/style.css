@@ -1,0 +1,236 @@
+@import url(../scss/header.css);
+@import url(../scss/main.css);
+@import url(../scss/slider.css);
+@import url(../scss/product.css);
+@import url(../scss/rewievs.css);
+@import url(../scss/consulting.css);
+@import url(../scss/questions.css);
+@import url(../scss/news.css);
+@import url(../scss/mailing.css);
+@import url(../scss/footer.css);
+html, body {
+   background-color: #F8F8F8;
+   height: 100%;
+   width: 100%;
+   overflow-x: hidden;
+   font-family: Gothic A1, sans-serif;
+
+}
+*{
+   padding: 0;
+   margin: 0;
+}
+.wrap{
+   width: 100%;
+}
+.dark{
+   display: none;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   position: absolute;
+   opacity: 0.7;
+   z-index: 5;
+}
+.burger--off{
+   opacity: 0.3;
+}
+.dark--on{
+   display: block;
+}
+.container{
+   max-width: 1380px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.close-btn{
+   display: none;
+   border: none;
+   cursor: pointer;
+   position: absolute;
+   background-color: transparent;
+   right: 15px;
+   top: 15px;
+}
+.menu-open{
+   transform: none;
+}
+.mobile-text{
+   display: none;
+   font-size: 12px;
+   font-weight: 500;
+   margin-left: 5px;
+}
+.register__image{
+   background-color: #BB9B75;
+}
+.mobile__profile-link{
+   display: none;
+}
+.mobile__image{
+   display: none;
+}
+.mobile__contacts{
+   display: none;
+}
+.mobile__background{
+   position: absolute;
+   top: 250px;
+   display: none;
+   width: 100%;
+   margin: 0 auto;
+}
+.mobile__btns{
+   display: none;
+   margin-top: 5px;
+}
+.not-mobile__btn{
+   display: block;
+}
+@media(max-width:1023px){
+   .mobile__background{
+      display: block;
+   }  
+}
+ 
+@media(max-width:767px){
+   .not-mobile__btn{
+      display: none;
+   }
+   .mobile__btns{
+      display: block;
+   }
+   .mobile__background{
+      top: 100px;
+      left: 10px;
+   } 
+
+}
+@media(max-width:425px){
+   .mobile__background{
+      top: 250px;
+      left: 0;
+   }  
+}
+@media(max-width:768px){
+   .mobile__contacts{
+      display: block;
+   }
+   .close-btn{
+      display: block;
+   }
+   .mobile__image{
+      display: block;
+}
+   .not-mobile{
+      display: none;
+   }
+   .mobile__profile-link{
+      display:flex
+   }
+   .mobile-text{
+      display: block;
+   }
+}
+.common__title{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 90px;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+.common__text{
+   font-size: 20px;
+   color:  #474747;
+}
+@media (max-width:768px) {
+   .sertificates__header{
+      display: block;
+   }
+   .common__title{
+      font-size: 52px;
+      text-align: center;
+   }
+   .common__text{
+      font-size: 15px;
+      text-align: center;
+}
+   }
+   @media (max-width:374px){
+      .common__title{
+         font-size: 32px;
+      }
+      .common__text{
+         font-size: 12px;
+      }
+   }
+.sertificates{
+   margin-top: 60px;
+}
+.sertificates__header{
+   display: flex;
+}
+.sertificates__text{
+   margin-top: 160px;
+}
+.sertificates__image{
+   display: block;
+   width: 100%;
+   object-fit: fill;
+}
+@media (max-width:768px){
+   .sertificates__header{
+      display: block;
+   }
+   .sertificates__text{
+      margin-top: 10px;
+   }
+}
+.recomendation{
+   margin-top: 60px;
+}
+.new{
+   margin-top: 60px;
+}
+.link-btn {
+   display: inline-block;
+   text-decoration: none;
+   border: 1px solid #BB9B75;
+   font-weight: 700;
+   width: 210px;
+   text-align: center;
+   padding: 16px 0;
+   color: black;
+}
+.back{
+   color: white;
+   background: #BB9B75;
+   box-shadow: 0px 10px 22px rgba(168, 134, 94, 0.3);
+}
+.active{
+   margin-top: 0;
+   opacity: 1;
+}
+.btn--active .questions__line{
+   opacity: 0;
+}
+.btn--active::before{
+   rotate: 0deg;
+}
+.hide{
+   display: none;
+}
+.mark{
+   font-weight: 700;
+}
+.news__link-btn {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 15px;
+ }
+
+ .mailing__link-btn {
+   color: white;
+   border: 1px solid white;
+   font-weight: 400;
+   margin-left: 20px;
+ }

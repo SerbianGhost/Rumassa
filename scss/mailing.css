@@ -1,0 +1,72 @@
+.mailing {
+  margin-top: 80px;
+  background-color: #BB9B75;
+  color: white;
+}
+.mailing__container {
+  content: "";
+  background-image: url(../images/mailing/background.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 20px;
+}
+.mailing__top {
+  display: flex;
+  align-items: center;
+}
+.mailing__title {
+  font-size: 75px;
+  font-family: "Times New Roman", Times, serif;
+}
+.mailing__text {
+  margin-left: 10px;
+  margin-bottom: -110px;
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+.mailing__bottom {
+  margin-top: 33px;
+}
+.mailing__input {
+  width: 40.7971014493%;
+  height: 52px;
+  padding-left: 20px;
+}
+.mailing__link-btn {
+  color: white;
+  border: 1px solid white;
+  font-weight: 400;
+}/*# sourceMappingURL=mailing.css.map */
+@media (max-width:1023px){
+  .mailing__container{
+    background-image: none;
+    padding: 10px;
+  }
+  .mailing__top {
+    display: block;
+  }
+  .mailing__bottom {
+    margin-top: 20px;
+  }
+  .mailing__text {
+    margin: 0;
+  }
+}
+@media (max-width:546px){
+  .mailing__title{
+    font-size: 32px;
+  }
+  }
+  @media (max-width:458px){
+    .mailing__bottom input{
+      display: block;
+      width: 270px;
+      margin: 0 auto;
+    }
+    .mailing__bottom a {
+      display: block;
+      width: 290px;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }

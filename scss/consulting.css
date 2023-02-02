@@ -1,0 +1,89 @@
+.consulting {
+  margin-top: 30px;
+}
+.mobile__consulting-title{
+  display: none;
+}
+.not-mobile__consulting-title{
+  display: block;
+}
+.consulting__container {
+  display: flex;
+  background-color: #F2F2F2;
+}
+.consulting__image {
+  margin-right: 10px;
+}
+.consulting__right {
+  border-left: 3px solid #E6E6E6;
+  padding: 20px 30px;
+}
+.consulting__title {
+  font-size: 70px;
+  color: #303030;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.consulting__sub-title {
+  font-size: 24px;
+  color: #303030;
+}
+.consulting__service {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #424242;
+}
+.consulting__text {
+  font-size: 18px;
+  color: #303030;
+  margin-top: 20px;
+}
+.consulting__links {
+  margin-top: 10px;
+}/*# sourceMappingURL=consulting.css.map */
+@media (max-width:1023px){
+  .consulting__container {
+    flex-direction: column;
+  }
+  .mobile__consulting-title{
+    display: block;
+    text-align: center;
+  }
+  .consulting__title{
+    font-size: 32px;
+  }
+  .consulting__sub-title{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .not-mobile__consulting-title{
+    display: none;
+  }
+  .consulting__background{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .consulting__right {
+    border: none;
+    background-color: white;
+  }
+  .consulting__links{
+    display: flex;
+    flex-direction: column;
+  }
+  .consulting__links a:not(:first-child){
+    margin-top: 10px;
+  }
+}
+@media (max-width:767px){
+  .consulting__links a{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .consulting__background{
+    width: 80%;
+  }
+}

@@ -1,0 +1,61 @@
+.consulting {
+   margin-top: 30px;
+
+   &__container {
+      display: flex;
+      background-color: #F2F2F2;
+   }
+
+   &__left {
+   }
+
+   &__image {
+      margin-right: 10px;
+   }
+
+   &__right {
+      border-left: 3px solid #E6E6E6;
+      padding: 20px 30px;
+   }
+
+   &__title {
+      font-size: 70px;
+      color:  #303030;
+      font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+   }
+
+   &__sub-title {
+      font-size: 24px;
+      color: #303030;
+   }
+
+   &__services {
+   
+   }
+
+   &__service {
+      margin-top: 10px;
+      list-style: none;
+      display: flex; 
+      align-items: center;
+      color: #424242;
+   }
+
+   &__text {
+      font-size: 18px;
+      color: #303030;
+      margin-top: 20px;
+   }
+
+   &__links {
+      margin-top: 10px;
+   }
+
+   &__link-btn {
+   }
+}
+
+
+
+
+

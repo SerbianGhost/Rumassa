@@ -1,0 +1,51 @@
+.news {
+  margin-top: 40px;
+  background: #F5F5F5;
+}
+.news__title {
+  font-size: 90px;
+  color: #1C1C1C;
+  font-family: "Times New Roman", Times, serif;
+}
+.news__card {
+  background: #FFFFFF;
+  box-shadow: 0px 33px 69px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  color: #474747;
+}
+.news__name {
+  font-size: 20px;
+  color: #1C1C1C;
+  padding: 6px 0 6px 22px;
+}
+.news__information {
+  padding: 6px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 1px solid #D8D8D8;
+}
+.news__date {
+  display: flex;
+  align-items: center;
+}
+.news__icon {
+  margin: 0 3px;
+}
+.news__author {
+  display: flex;
+  align-items: center;
+}
+.news__text {
+  padding: 6px 0 6px 22px;
+  border-bottom: 1px solid #D8D8D8;
+}
+.news__links {
+  padding: 14px 0 6px 22px;
+}
+.news__link-btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=news.css.map */

@@ -1,0 +1,113 @@
+.questions {
+  margin-top: 50px;
+}
+.questions__title {
+  font-size: 90px;
+  text-align: center;
+  color: #1C1C1C;
+  font-family: "Times New Roman", Times, serif;
+}
+.questions__questions {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #D8D8D8;
+}
+.questions__item {
+  padding: 20px;
+  position: relative;
+  overflow-y: hidden;
+}
+.questions__item:not(:last-child) {
+  border-bottom: 1px solid #D8D8D8;
+}
+.questions__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  background-color: #F8F8F8;
+  position: relative;
+  z-index: 3;
+}
+.questions__text {
+  color: #303030;
+}
+.questions__num {
+  color: #D8D8D8;
+  margin-right: 10px;
+}
+.questions__btn {
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #BB9B75;
+  border: none;
+}
+.questions__line, .questions__btn::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transition: all ease 0.5s;
+}
+.questions__btn::before {
+  rotate: 90deg;
+}
+.questions__answer {
+  font-size: 16px;
+  color: #474747;
+  margin-left: 30px;
+  transition: all ease 0.6s;
+  margin-top: -40px;
+  
+}/*# sourceMappingURL=questions.css.map */
+@media(max-width:1039px){
+  
+  .questions__question{
+    height: 60px;
+  }
+  .questions__answer{
+    margin-top: -60px;
+  }
+}
+@media(max-width:768px){
+  .questions__title{
+    font-size: 32px;
+  }
+}
+@media(max-width:609px){
+  .questions__question{
+    height: 80px;
+  }
+  .questions__answer{
+    margin-top: -80px;
+  }
+}
+@media(max-width:475px){
+  .questions__questions{
+    width: 90%;
+  }
+  .questions__question{
+    height: 90px;
+  }
+  .questions__answer{
+    margin-top: -90px;
+  }
+}
+@media(max-width:423px){
+  .questions__questions{
+    width: 96%;
+  }
+  .questions__question{
+    height: 100px;
+  }
+  .questions__answer{
+    margin-top: -100px;
+  }
+}
